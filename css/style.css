@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+
+
+
+.header {
+    border: 1px solid black;
+    color: #ffffff;
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+
+
+}
+
+ul {
+    list-style-type: none;
+
+    /* display: flex; */
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+li {
+    margin: 10px;
+    padding-left: 50px;
+}
+
+/* home image slider start */
+.main-image {
+    width: 100%;
+
+}
+
+.bandpartyimg img {
+    width: 100%;
+    height: auto;
+
+    display: block;
+
+    /* animation: slide 16s infinite; */
+
+}
+
+
+@keyframes slide {
+    0% {
+        transform: translatex(0);
+    }
+
+    25% {
+        transform: translatex(0);
+    }
+
+    30% {
+        transform: translatex(-100%);
+    }
+
+    50% {
+        transform: translatex(-100%);
+    }
+
+    55% {
+        transform: translatex(-200%);
+    }
+
+    75% {
+        transform: translatex(-200%);
+    }
+
+    80% {
+        transform: translatex(-200%);
+    }
+
+    100% {
+        transform: translatex(-300%);
+    }
+}
+
+
+
+
+
+
+
+
+
+/* home image slider End */
+
+
+
+
+
+/* band caption */
+
+.band {
+    margin-top: 65px;
+    margin-bottom: 60px;
+    width: 800px;
+    /* position: absolute; */
+    left: 20%;
+    text-align: center;
+    padding: 20px;
+}
+
+.band h2 {
+    padding-bottom: 20px;
+}
+
+.band p {
+    padding: 10px;
+    text-align: justify;
+}
+
+
+
+
+.bandmember {
+    /* border: 1px solid green; */
+    padding-top: 20px 0 20px 0;
+    display: grid;
+    grid-template-areas: 'member member member';
+
+}
+
+
+/* .band-section {
+    padding-top: 50px !important;
+
+} */
+
+.band-section h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.band-section .music {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.content p {
+    text-align: justify;
+    padding: 10px 200px 0px 200px;
+    padding-bottom: 100px;
+}
+
+.card {
+    display: flex;
+    padding: 10px 200px 0px 200px;
+
+}
+
+.card .card-img {
+    padding: 0px 10px;
+}
+
+.tour-dates {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.tickets {
+    padding-top: 15px;
+}
+
+#tour-section {
+    margin-top: 30px;
+    background-color: #000000 !important;
+    padding: 30px !important
+}
+
+
+.dates {
+    text-align: center;
+}
+
+.month {
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+.one {
+
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    color: #757575;
+    border-bottom: 1px solid black;
+}
+
+.one .sold {
+    background-color: rgb(180, 12, 12);
+    color: #ffffff;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.one .number {
+    background-color: black;
+    float: right;
+    color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+
+
+
+
+
+}
+
+
+
+.tour-card {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.tour-card {
+    display: flex;
+}
+
+.firstcard {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px 20px 10px 20px;
+
+
+    margin-bottom: 20px;
+}
+
+.card-title {
+    padding: 20px;
+}
+
+.title-place {
+    padding-bottom: 10px;
+}
+
+.pragraph {
+    margin-bottom: 10px;
+}
+
+.btn-ticket a {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+
+/* card hove  */
+
+.firstcard:hover {
+    opacity: 0.6;
+    transition: 0.8;
+}
+
+
+
+
+
+/* contact section */
+
+.contact-title-section {
+    text-align: center;
+    padding: 10px;
+}
+
+.fan {
+    padding: 10px;
+}
+
+
+
+.cont {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 150px;
+    padding-left: 25%;
+
+}
+
+.name input {
+    background-color: #ffffff;
+    padding: 5px;
+    height: 30px;
+    width: 183px;
+    margin-right: 10px;
+
+}
+
+.message input {
+    background-color: #ffffff;
+    padding: 3px;
+    width: 400px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.sendbtn {
+    padding: 10px;
+    margin-top: 5px;
+    float: right;
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+/* footer area css */
+
+
+
+.footer-section {
+    margin: 20px 0px 30px 21%;
+    color: blueviolet;
+    width: 50%;
+    text-align: center;
+
+}
+
+.footer-section h3 {
+    margin-top: 10px;
+    color: peru !important;
+
+    border-bottom: 2px double black;
+}
+
+/* .end {
+
+    border-bottom: 2px double black;
+} */
